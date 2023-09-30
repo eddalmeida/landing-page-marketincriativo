@@ -114,3 +114,12 @@ input[type="submit"]:hover{
     color: #9B06D0;
     background-color: #111e2b;
 }
+
+.bx{
+    font-size: 50px;
+    color:#fff;
+}
+
+#menu{
+    display: none;
+}

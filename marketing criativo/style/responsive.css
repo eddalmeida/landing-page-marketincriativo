@@ -1,0 +1,40 @@
+@media (max-width: 1020px){
+    .container{
+        width: 100%;
+    }
+
+    header nav ul{
+        gap: 10px;
+    }
+    
+    main{
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .register{
+        width: 350px;
+    }
+    .image img{
+        width: 400px;
+    }
+}
+
+
+@media (max-width: 740px){
+    nav ul li a{
+        display: none;
+    }
+
+    .register{
+        width: 400px;
+    }
+
+    .image{
+        display: none;
+    }
+    #menu{
+        display: unset;
+    }
+
+}
