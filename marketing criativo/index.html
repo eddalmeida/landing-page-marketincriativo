@@ -11,22 +11,35 @@
 <body>
     <div class="container">
         <header>
-            <nav>
+            <nav class="nav-bar">
                 <div class="title">
                     <h1><a href="#">Creative</a></h1>
-                    <h1><a href="#" class="h1-style">Marketing</a></h1>
+                    <h1><a href="#" style="color:#9B06D0;">Marketing</a></h1>
                 </div>
-
-                <ul class="nav">
-                    <li><a href="#">inicio</a></li>
-                    <li><a href="#">serviços</a></li>
-                    <li><a href="#">sobre</a></li>
-                    <li><a href="$">contato</a></li>
-                    <li class="login-btn"><a href="#">já tem uma conta?</a></li>
-                <ul>
-                <div class="menu" id="menu" onclick="clicar()"><i class='bx bx-menu'></i></div>
-            </nav>
+                <div class="nav-list">
+                    <ul>
+                        <li class="nav-item"><a href="#">inicio</a></li>
+                        <li class="nav-item"><a href="#">serviços</a></li>
+                        <li class="nav-item"><a href="#">sobre</a></li>
+                        <li class="nav-item"><a href="$">contato</a></li>
+                        <li class="nav-item" class="login-btn"><a href="#">já tem uma conta?</a></li>
+                    </ul>
+                </div>
+                <div class="mobile-menu-icon" id="icon" onclick="menuShow()" class="inativo">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>  
         </header>
+  
+        <div class="mobile-menu">
+            <ul>
+                <li><a href="#">inicio</a></li>
+                <li><a href="#">serviços</a></li>
+                <li><a href="#">sobre</a></li>
+                <li><a href="$">contato</a></li>
+                <li class="login-btn"><a href="#">já tem uma conta?</a></li>
+            </ul>        
+        </div>
         <main>
             <div class="register">
                 <h2 class="h2-style">Subscribe Now</h2>

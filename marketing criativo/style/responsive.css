@@ -1,40 +1,57 @@
-@media (max-width: 1020px){
+@media  (max-width: 740px) {
     .container{
         width: 100%;
     }
 
-    header nav ul{
-        gap: 10px;
-    }
-    
-    main{
-        justify-content: center;
-        gap: 10px;
-    }
-
-    .register{
-        width: 350px;
-    }
-    .image img{
-        width: 400px;
-    }
-}
-
-
-@media (max-width: 740px){
-    nav ul li a{
-        display: none;
-    }
-
-    .register{
-        width: 400px;
-    }
-
+    .nav-item,
     .image{
         display: none;
     }
+
     #menu{
-        display: unset;
+        display: block;
     }
 
+    header nav h1 a{
+        font-size: 30px;
+    }
+    
+    .bx{
+        font-size: 50px;
+        cursor: pointer;
+        color: #fff;
+    }
+
+
+    .mobile-menu{
+        display: none;
+    }
+
+    .mobile-menu ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    
+    .ativo{
+        display: block;
+        position: absolute;
+        top: 10rem;
+        right: 10px;
+        background-color: rgba(15, 16, 16, 0.4);
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .ativo ul{
+        list-style: none;
+        display: flex;
+        gap: 100px;
+        border-radius: 10px;
+    }
+
+    .ativo ul li a{
+        color: #fff;
+    }
 }
